@@ -61,10 +61,10 @@ while True:
     choice = input_and_check(choice)
     if choice == 4:
         # Выводим итоговый результат игры
-        if user_score <= computer_score:
+        if user_score < computer_score:
             print("Итог:\nКомпьютер выиграл! Было круто!")
             engine.say("Итог: Компьютер выиграл! Было круто!")
-        elif user_score >= computer_score:
+        elif user_score > computer_score:
             print("Итог:\nТы выиграл! Было круто!")
             engine.say("Итог: Ты выиграл! Было круто!")
         else:
