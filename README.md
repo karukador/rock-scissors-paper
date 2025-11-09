@@ -6,7 +6,7 @@
 ```
 git clone https://github.com/karukador/rock-scissors-paper.git
 ```
-2) Установите модуль для озвучивания текста в речь:
+2) Установите модуль для озвучивания текста:
 ```
 pip install pyttsx3
 ``` 
